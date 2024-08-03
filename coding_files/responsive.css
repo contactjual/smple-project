@@ -1,0 +1,55 @@
+/*@media screen and (min-width:1440px) {
+    .header-area .background-img {
+        background-size: cover;
+    }
+}*/
+
+
+@media screen and (max-width: 1440px)  {
+    .header-area .background-img {
+        background-size: cover;
+        height: 750px;
+    }
+    .header-area .tex-area h1 {
+        font-size: 50px;
+        line-height: 55px;
+    }
+
+    .header-area .tex-area p {
+        font-size: 16px;
+    }
+
+    button {
+        padding: 15px 30px;
+        font-size: 20px;
+    }
+}
+
+
+
+
+@media screen and (max-width: 1024px) {
+    .header-area .background-img {
+        background-size: cover;
+        height: 516px;
+    }
+    .header-area .tex-area h1 {
+        font-size: 40px;
+        line-height: 55px;
+    }
+
+    .header-area .tex-area p {
+        font-size: 12px;
+    }
+
+    button {
+        padding: 15px 30px;
+        font-size: 20px;
+    }
+}
+
+
+
+
+
+

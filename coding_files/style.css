@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+}
+
+.header-area .background-img {
+    background-image: url('../images/banner/banner3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 960px;
+    display: flex;
+    align-items: center;
+}
+.container {
+    width: 70%;
+    margin: auto;
+}
+.header-area .tex-area {
+    text-align: end;
+    color: white;
+}
+.header-area .tex-area h1 {
+    font-size: 80px;
+    line-height: 90px;
+
+    font-family: "Kanit", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+.header-area .tex-area p {
+    font-family: "Kanit", sans-serif;
+    font-size: 20px;
+    color: rgb(201, 220, 236);
+}
+button {
+    padding: 20px 40px;
+    border: none;
+    border-radius: 8px;
+    font-size: 20px;
+    margin-top: 20px;
+    color: rgb(62, 62, 238);
+    font-family: "Kanit", sans-serif;
+}
