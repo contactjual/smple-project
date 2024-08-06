@@ -97,8 +97,13 @@ button {
     display: flex;
     justify-content: space-around;
 }
-.plan-items img {
+.plan-items .web img {
     width: auto;
+    /* text-align: center;
+    justify-content: center; */
+}
+.center-img {
+    text-align: center;
 }
 
 
@@ -129,19 +134,48 @@ button {
 
 .future-and-Subscribe {
     width: 100%;
-    height: 450px;
+    height: 600px;
     background-color: black;
     color: white;
 }
 .future-and-Subscribe .flex-style {
     display: flex;
-    height: 450px;
+    height: 600px;
     align-items: center;
     justify-content: space-between;
+ }
+.future-and-Subscribe .subscribe {
+    margin-top: -102px;
 }
 .future-and-address h1 {
     font-size: 3vw;
-}
+} 
 .future-and-address p {
     font-size: 1.2vw;
+    margin-bottom: 40px;
+}
+.future-and-address .icons {
+    margin-top: 30px;
+}
+.future-and-address .icons img {
+    width: 35px;
+    margin-right: 15px;
+}
+.future-and-address br {
+    margin-bottom: 10px;
+}
+.subscribe input {
+    padding: 15px 30px;
+    border-radius: 8px;
+    background-color: black;
+    border:1px solid white;
+    color: white;
+    font-size: 20px;
+}
+.footer-butt {
+    margin-top: 20px;
+    padding: 20px 40px;
+    color: white;
+    background-color: #1062ae;
+    font-size: 18px;
 }
